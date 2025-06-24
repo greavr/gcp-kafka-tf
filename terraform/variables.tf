@@ -69,11 +69,11 @@ variable "kafka_sa_roles" {
 variable "kafka_min_vcpu" {
     description = "Minimum vCPU, minimum is 3"
     type = number
-    default = 3
+    default = 6
 }
 
 variable "kafka_min_ram" {
     description = "he memory to provision for the cluster in bytes. The value must be between 1 GiB and 8 GiB per vCPU. Ex. 1024Mi, 4Gi."
     type = number
-    default = 3221225472
+    default = 25769803776
 }
