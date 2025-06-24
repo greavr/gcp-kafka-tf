@@ -1,4 +1,4 @@
-# TEMPLATE
+# GCP Managed Kafka (A Terraform Story)
 
 Requirement: **GCP PROJECT INTO WHICH TO DEPLOY**
 
